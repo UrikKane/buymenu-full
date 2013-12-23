@@ -116,7 +116,6 @@ function BuyMenu:CreateItems()
 			["Jeep"] = {
 				VehicleBuyMenuEntry( 48, 700 ),
 				VehicleBuyMenuEntry( 87, 700 ),
-				VehicleBuyMenuEntry( 10, 750 ),
 				VehicleBuyMenuEntry( 52, 750 ),
 				VehicleBuyMenuEntry( 46, 800 ),
 				VehicleBuyMenuEntry( 72, 900 ),
