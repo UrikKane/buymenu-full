@@ -25,9 +25,6 @@ function BuyMenu:__init()
 
     self:CreateItems()
 
-    Events:Register( "SpawnPoint" )
-    Events:Register( "TeleportPoint" )
-
     Events:Subscribe( "PlayerJoin", self, self.PlayerJoin )
     Events:Subscribe( "PlayerQuit", self, self.PlayerQuit )
     Events:Subscribe( "ModuleUnload", self, self.ModuleUnload )
